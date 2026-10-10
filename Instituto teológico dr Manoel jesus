@@ -1,3 +1,116 @@
-git remote add origin https://github.com/educafe1988/Institutodrmanoeljesus.com.br.git
-git branch -M main
-git push -u origin main
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instituto Teológico Dr. Manoel Jesus</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #222;
+    }
+
+    header {
+      background: #123b27;
+      color: white;
+      text-align: center;
+      padding: 30px 15px;
+    }
+
+    nav {
+      background: #d4af37;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #123b27;
+      margin: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      max-width: 850px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    section {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+
+    .botao {
+      display: inline-block;
+      background: #123b27;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+
+    footer {
+      background: #123b27;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Instituto Teológico Dr. Manoel Jesus</h1>
+    <p>Formando vidas por meio do conhecimento bíblico</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#cursos">Cursos</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <main>
+    <section id="inicio">
+      <h2>Bem-vindo ao nosso Instituto!</h2>
+      <p>Conheça nossos cursos e aprofunde seus conhecimentos da Palavra de Deus.</p>
+    </section>
+
+    <section id="cursos">
+      <h2>Nossos Cursos</h2>
+      <ol>
+        <li>Teologia Básica</li>
+        <li>Teologia Intermediária</li>
+        <li>Formação Teológica</li>
+        <li>Escatologia Bíblica</li>
+      </ol>
+      <p>Consulte a instituição sobre carga horária, requisitos e certificação de cada curso.</p>
+    </section>
+
+    <section id="sobre">
+      <h2>Sobre o Instituto</h2>
+      <p>O Instituto Teológico Dr. Manoel Jesus tem como objetivo promover o estudo bíblico e a formação teológica.</p>
+    </section>
+
+    <section id="contato">
+      <h2>Entre em contato</h2>
+      <p>Entre em contato conosco para obter informações sobre matrículas e cursos.</p>
+      <a class="botao" href="mailto:contato@exemplo.com">Enviar e-mail</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>Instituto Teológico Dr. Manoel Jesus</p>
+    <p>© 2026 - Todos os direitos reservados</p>
+  </footer>
+
+</body>
+</html>
+
